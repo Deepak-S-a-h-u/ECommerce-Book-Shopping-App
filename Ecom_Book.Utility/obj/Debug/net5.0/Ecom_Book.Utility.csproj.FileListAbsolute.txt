@@ -1,0 +1,12 @@
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\bin\Debug\net5.0\Ecom_Book.Utility.deps.json
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\bin\Debug\net5.0\Ecom_Book.Utility.dll
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\bin\Debug\net5.0\ref\Ecom_Book.Utility.dll
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\bin\Debug\net5.0\Ecom_Book.Utility.pdb
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\obj\Debug\net5.0\Ecom_Book.Utility.GeneratedMSBuildEditorConfig.editorconfig
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\obj\Debug\net5.0\Ecom_Book.Utility.AssemblyInfoInputs.cache
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\obj\Debug\net5.0\Ecom_Book.Utility.AssemblyInfo.cs
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\obj\Debug\net5.0\Ecom_Book.Utility.csproj.CoreCompileInputs.cache
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\obj\Debug\net5.0\Ecom_Book.Utility.dll
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\obj\Debug\net5.0\ref\Ecom_Book.Utility.dll
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\obj\Debug\net5.0\Ecom_Book.Utility.pdb
+E:\cs infotech traning cource\Book Shopping Project\3\Ecom_Book.Utility\obj\Debug\net5.0\Ecom_Book.Utility.csprojAssemblyReference.cache

@@ -1,0 +1,42 @@
+﻿using Ecom_Book.DataAccess.Data;
+using Ecom_Book.DataAccess.Repository.IRepository;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ecom_Book.DataAccess.Repository
+{
+    public class UnitOfWork : IUnitOfWork
+    {
+        private readonly ApplicationDbContext _Context;
+        public UnitOfWork(ApplicationDbContext context)
+        {
+            _Context = context;
+            Category = new CategoryRepository(_Context);
+            CoverType = new CoverTypeRepository(_Context);
+            SP_Call = new SP_Call(_Context);
+            Product = new ProductRepository(_Context);
+            Company = new CompanyRepository(_Context);
+            ApplicationUser = new ApplicationUserRepository(_Context);
+            shoppingCart = new ShoppingCartRepository(_Context);
+            OrderHeader = new OrderHeaderRepository(_Context);
+            OrderDetails = new OrderDetailsRepository(_Context);
+        }
+        public ICategoryRepository Category { get; private set; }
+        public ICoverTypeRepository CoverType { get;private set; }
+        public ISP_Call SP_Call { get; private set; }
+        public IProductRepository Product { get;private set; }
+        public ICompanyRepository Company { get;private set; }
+        public IApplicationUserRepository ApplicationUser { get; private set; }
+        public IShoppingCartRepository shoppingCart { get;private set; }
+        public IOrderHeaderRepository OrderHeader { get; private set; }
+        public IOrderDetailsRepository OrderDetails { get;private set; }
+
+        public void Save()
+        {
+            _Context.SaveChanges();
+        }
+    }
+}
